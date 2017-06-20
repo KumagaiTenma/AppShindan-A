@@ -1,6 +1,4 @@
-
 public class Shindan {
-
 	public static void main(String[] args) {
 		//メイン処理
 		int situ1 = situmon1();
@@ -10,7 +8,6 @@ public class Shindan {
 
 
 	}
-
 	public static int situmon1() {
 		//質問内容を表示
 		//回答内容を表示(1：男性　2：女性)
@@ -22,10 +19,11 @@ public class Shindan {
 
 	}
 
-	public void sirumon2() {
-
+	public int sirumon2() {
+	  int ans2;
+	  System.out.println("もしも「世界の半分をくれてやる」と言われたら？");
+	  return ans2 = sc.nextInt();
 	}
-
 	public void sirumon3() {
 
 	}
