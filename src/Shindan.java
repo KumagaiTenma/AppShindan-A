@@ -12,12 +12,13 @@ public class Shindan {
 	}
 
 	public static int situmon1() {
-		//質問内容を表示
-		//回答内容を表示(1：男性　2：女性)
-		//ユーザーが答えを入力
+		int a = 0;
+		System.out.print("問１：性別は？");//質問内容を表示
+		System.out.println("(1：男性 2：女性)");//回答内容を表示(1：男性　2：女性)
+		System.out.print("回答：");
+		a = sc.nextInt();//ユーザーが答えを入力
 		//返り値ありでもおｋ
 
-		int a = 0;
 		return a;
 
 	}
