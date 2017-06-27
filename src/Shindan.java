@@ -1,23 +1,22 @@
-
 public class Shindan {
 
 	public static void main(String[] args) {
-		//メイン処理
+		//繝｡繧､繝ｳ蜃ｦ逅�
 		int situ1 = situmon1();
-		//回答内容で診断結果を考える処理
+		//蝗樒ｭ泌��螳ｹ縺ｧ險ｺ譁ｭ邨先棡繧定��縺医ｋ蜃ｦ逅�
 
-		//回答結果を出力
+		//蝗樒ｭ皮ｵ先棡繧貞�ｺ蜉�
 
 
 	}
 
 	public static int situmon1() {
 		int a = 0;
-		System.out.print("問１：性別は？");//質問内容を表示
-		System.out.println("(1：男性 2：女性)");//回答内容を表示(1：男性　2：女性)
-		System.out.print("回答：");
-		a = sc.nextInt();//ユーザーが答えを入力
-		//返り値ありでもおｋ
+		System.out.print("蝠擾ｼ托ｼ壽�ｧ蛻･縺ｯ�ｼ�");//雉ｪ蝠丞��螳ｹ繧定｡ｨ遉ｺ
+		System.out.println("(1�ｼ夂塙諤ｧ 2�ｼ壼･ｳ諤ｧ)");//蝗樒ｭ泌��螳ｹ繧定｡ｨ遉ｺ(1�ｼ夂塙諤ｧ縲�2�ｼ壼･ｳ諤ｧ)
+		System.out.print("蝗樒ｭ費ｼ�");
+		a = sc.nextInt();//繝ｦ繝ｼ繧ｶ繝ｼ縺檎ｭ斐∴繧貞�･蜉�
+		//霑斐ｊ蛟､縺ゅｊ縺ｧ繧ゅ♀�ｽ�
 
 		return a;
 
