@@ -1,5 +1,4 @@
 public class Shindan {
-
 	public static void main(String[] args) {
 		//繝｡繧､繝ｳ蜃ｦ逅�
 		int situ1 = situmon1();
@@ -9,7 +8,6 @@ public class Shindan {
 
 
 	}
-
 	public static int situmon1() {
 		int a = 0;
 		System.out.print("蝠擾ｼ托ｼ壽�ｧ蛻･縺ｯ�ｼ�");//雉ｪ蝠丞��螳ｹ繧定｡ｨ遉ｺ
@@ -22,10 +20,11 @@ public class Shindan {
 
 	}
 
-	public void sirumon2() {
-
+	public int sirumon2() {
+	  int ans2;
+	  System.out.println("もしも「世界の半分をくれてやる」と言われたら？");
+	  return ans2 = sc.nextInt();
 	}
-
 	public void sirumon3() {
 
 	}
